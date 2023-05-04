@@ -1,0 +1,85 @@
+body, html {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #ebeff5;
+}
+.user_card {
+	width: 350px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: whitesmoke;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+#form-title {
+	color: black;
+}
+.login_container {
+	padding: 10px;
+}
+.input-group-text {
+	background: #303b42;
+	color: white;
+	width: 40px;
+	height: 38px;
+	border: 1px solid #303b42;
+}
+#messages {
+	color: black;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+.errorlist {
+	color: black;
+	padding: 5px;
+	margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .fa-key {
+        width: 80px;
+        font-size: 40px;
+    }
+	.fa-user {
+		width: 80px;
+		font-size: 40px;
+	}
+	.user_card {
+		width: 100%;
+		font-size: 35px;
+		border-radius: 10px;
+		padding: 40px;
+  	}
+	.input-group-text {
+		margin-left: auto;
+		margin-right: auto;
+		background: #303b42;
+		color: white;
+		width: 80px;
+		height: 80px;
+		border-color: white;
+		border-width: 2px;
+		margin-bottom: 5px;
+	}
+	.form_container {
+		margin-top: 30px;
+	}
+	.form-control {
+		width: 400px;
+		height: 80px;
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	#messages, .errorlist  {
+		font-size: 30px;
+	}
+}

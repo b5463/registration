@@ -1,0 +1,1 @@
+web: gunicorn RegistrationDjango.wsgi --log-file -

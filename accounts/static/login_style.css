@@ -1,0 +1,36 @@
+h3 {
+	font-size: 40px;
+}
+.form_container {
+	margin-top: 15px;
+}
+.signin_btn {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.form-control {
+	border-radius: 0;
+}
+.form-control {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+@media (max-width: 1000px) {
+	h3 {
+		font-size: 70px;
+	}
+	.signin_btn {
+		width: 400px;
+		height: 80px;
+		font-size: 30px;
+		border-radius: 10px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.form-control {
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+}
